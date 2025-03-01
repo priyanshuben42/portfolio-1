@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  font-family: poppins;
+  height: 100px;
+  background-color: rgb(10, 10, 10);
+}
+
+header ul {
+  display: flex;
+}
+ul li a:hover {
+  text-decoration: underline;
+  color: rgb(215, 55, 30);
+}
+header li,
+a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  margin: 10px;
+  font-size: 0.8rem;
+}
+.contact_us:hover {
+  border: 2px solid rgb(249, 249, 249);
+  background-color: rgb(5, 4, 4);
+  color: white;
+}
+.contact_us {
+  position: absolute;
+  right: 150px;
+  font-family: poppins;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  padding: 6px 15px 6px 15px;
+}
+
+.hanna span {
+  font-size: 1.3rem;
+  color: rgb(225, 27, 27);
+}
+
+.hanna {
+  position: absolute;
+  left: 150px;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.home_section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80vh;
+}
+
+.home_details h1 {
+  font-size: 3em;
+  color: rgb(210, 15, 15);
+  font-family: poppins;
+}
+
+.home_details strong {
+  font-size: 3em;
+  font-family: poppins;
+}
+
+.home_details p {
+  width: 600px;
+  font-family: poppins;
+  font-size: 0.9rem;
+}
+
+.home_details {
+  padding: 100px 50px 100px 90px;
+}
+.home_details span {
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.profile_image {
+  position: absolute;
+  right: 280px;
+  height: 340px;
+  border-radius: 50%;
+}
+
+.experience {
+  font-family: poppins;
+  background-color: orangered;
+  color: white;
+  padding: 6px 15px 6px 15px;
+  border-radius: 6px;
+  border: px solid black;
+  margin-left: 5px;
+}
+
+.hire_me {
+  padding: 6px 15px 6px 15px;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-family: poppins;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 6px;
+  border: px solid black;
+}
