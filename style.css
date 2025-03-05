@@ -4,33 +4,36 @@
 }
 
 body {
+
   margin: 0;
   padding: 0;
 }
 
 header {
   display: flex;
+  flex-wrap:wrap;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 100vw;
-  font-family: poppins;
-  height: 100px;
-  background-color: rgb(10, 10, 10);
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'poppins',sans-serif;
+  height: 60px;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
 }
 
 header ul {
+  list-style: none;
   display: flex;
+  padding: 0;
 }
 ul li a:hover {
   text-decoration: underline;
   color: rgb(215, 55, 30);
 }
-header li,
-a {
+header nav a{
   text-decoration: none;
   color: white;
-  list-style: none;
+  
   margin: 10px;
   font-size: 0.8rem;
 }
@@ -40,10 +43,9 @@ a {
   color: white;
 }
 .contact_us {
-  position: absolute;
-  right: 150px;
-  font-family: poppins;
+  font-family: 'poppins',sans-serif;
   font-size: 0.7rem;
+  margin-right: 60px;
   border-radius: 5px;
   padding: 6px 15px 6px 15px;
 }
@@ -54,34 +56,41 @@ a {
 }
 
 .hanna {
-  position: absolute;
-  left: 150px;
+  margin-left: 50px;
   font-size: 1.3rem;
   color: white;
 }
 
 .home_section {
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content:space-between;
   height: 80vh;
+  
 }
 
 .home_details h1 {
   font-size: 3em;
   color: rgb(210, 15, 15);
-  font-family: poppins;
+  font-family: 'poppins',sans-serif;
 }
 
 .home_details strong {
   font-size: 3em;
-  font-family: poppins;
+ font-family: 'poppins',sans-serif;
 }
+
+.home_details h1:hover, 
+.home_details strong:hover, 
+.home_details p:hover {
+  letter-spacing: .5px;
+  transition: letter-spacing 0.5s ease-in-out;
+}
+
 
 .home_details p {
   width: 600px;
-  font-family: poppins;
+ font-family: 'poppins',sans-serif;
   font-size: 0.9rem;
 }
 
@@ -89,34 +98,103 @@ a {
   padding: 100px 50px 100px 90px;
 }
 .home_details span {
-  font-family: poppins;
+  font-family: 'poppins',sans-serif;
   font-weight: 600;
 }
 
 .profile_image {
-  position: absolute;
-  right: 280px;
-  height: 340px;
+  position: relative;
+  right: 180px;
+  flex-shrink: 0;
+  width: 320px;
+  height: auto;
   border-radius: 50%;
 }
 
 .experience {
-  font-family: poppins;
+  font-family: 'poppins',sans-serif;
   background-color: orangered;
   color: white;
   padding: 6px 15px 6px 15px;
   border-radius: 6px;
-  border: px solid black;
+  border: 1px solid black;
   margin-left: 5px;
+}
+
+.hire_me:hover{
+  background-color: white;
+  color: black;
+}
+.experience:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 .hire_me {
   padding: 6px 15px 6px 15px;
   margin-top: 10px;
   margin-right: 5px;
-  font-family: poppins;
+font-family: 'poppins',sans-serif;
   background-color: rgb(0, 0, 0);
   color: white;
   border-radius: 6px;
-  border: px solid black;
+  border: 2px solid black;
 }
+
+
+.about_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.about_details{
+margin-right: 110px;
+}
+
+.about_section h1 {
+  
+  font-size: 3em;
+  font-family: 'poppins',sans-serif;
+}
+
+.about_section span{
+ 
+  font-family: 'poppins',sans-serif;
+  font-weight: 600;
+}
+
+.about_section p {
+
+  width: 580px;
+ font-family: 'poppins',sans-serif;
+  font-size: 0.9rem;
+}
+
+.profile_image1{
+  margin-left: 180px;
+  width: 320px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 12px 2px orangered;
+}
+
+.details:hover{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border:1px solid rgb(255, 255, 255);
+}
+
+.details{
+  font-family: 'poppins',sans-serif;
+  background-color: orangered;
+  color: rgb(0, 0, 0);
+  padding: 6px 15px 6px 15px;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
